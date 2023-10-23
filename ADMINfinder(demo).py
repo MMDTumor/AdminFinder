@@ -5,7 +5,7 @@ from colorama import Fore,init
 import getpass
 #MMLIX
 init()
-os.system("cls")
+os.system("clear")
 attacklist = ['/admin/','/webmail/','/administrator/','/admin1/','/admin3/','/admin4/','/admin5/','/administrator/'
 ,'/moderator/','/webadmin/','/bb-admin/','/adminarea/','/user/admin/','/admin-login/','/adminlogin/','/admin-panel/','/panel/'
 ,'/instadmin/','/adm/','/memberadmin/','/administatorlogin/','/admin/account.php','/login.php/','/admin/admin.php/','/admin/index.php/'
@@ -73,7 +73,7 @@ if passwd=="mmlix11228" or passwd=="MMLIX11228" or passwd=="Mmlix11228" :
             print("[Result : "+Fore.RED+"< <  Disable ! > URL >]\t"+Fore.BLUE+target+i+Fore.YELLOW)
             dc.append(f"{target}{i}")
 
-    os.system("CLS")
+    os.system("clear")
     print(Fore.YELLOW+"------------------------------------------------------------------------------------------------------")
     print(Fore.YELLOW+"------------------------------------------------------------------------------------------------------")
     print(Fore.LIGHTMAGENTA_EX+"    _       _           _       _____ _           _           ")
